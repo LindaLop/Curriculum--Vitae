@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'work Sans';
+    margin: 0;
+    padding: 0;  
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.contenedor-header{
+    background: pink;
+    position: fixed;
+    width: 120%;
+    top: 10;
+    right: 0;
+    z-index: 100;
+}
+
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px 60px ;
+}
+.contenedor-header header .logo a{
+    font-family: 'righteous';
+    font-size: 40px;
+    color: #d78787;
+    text-decoration: none;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: red;
+}
+
+.nav-responsive{
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.Inicio{
+    background: linear-gradient(to top, rgba(232, 167, 206, 0.8), rgba(232,167,206,0.8)),
+    url(../img/blob-scene-haikei.svg);
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    align-items: center;   
+}
+.Inicio .contenido-banner{
+    padding: 20px;
+    background-color: palevioletred;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.Inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 20px solid;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 90%;
+}
+
+.Inicio .contenido-banner h1{
+    margin-top: 43px;
+    font-size: 42px;
+    font-family: 'righteous';
+}
+
+.Datos-Personales{
+    background-color: rgb(245, 214, 219);
+    color: #cd9a9a;
+    padding: 40px 10px;
+}
+
+.Datos-Personales h2{
+    font-size: 48px;
+    font-family: 'righteous';
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.Datos-Personales .contenido-fila img{
+    max-width: 200px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.Datos-Personales .fila {
+    background-color: rgb(245, 214, 219);
+    color: black;
+    list-style: none;
+
+}
+.Datos-Personales .fila .li{
+    margin: 20px;
+
+}
+
+.Datos-Personales .fila ul li strong{
+    display: inline-block;
+    color: rgb(219, 103, 103);
+    width: 130px;
+}
+
+.Datos-Laborales{
+    background-color: rgb(245, 131, 150);
+    color: #080808;
+    padding: 40px 10px;
+}
+.Datos-Laborales .contenido-fila img{
+    max-width: 200px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.Datos-Laborales h2{
+    font-size: 50px;
+    font-family: 'righteous';
+    padding: 30px;
+    text-align: center;
+}
+
+.Datos-Laborales .fila {
+    background-color: rgb(241, 113, 135);
+    color: rgb(238, 171, 171);
+    list-style: none;
+
+}
+.Datos-Laborales .fila .li{
+    margin: 30px;
+
+}
+
+.Datos-Laborales .fila ul li strong{
+    display: inline-block;
+    color: rgb(219, 103, 103);
+    width: 200px;
+}
+
+
+.Proyectos-Realizados{
+    background-color: rgb(245, 214, 219);
+    color: #cd9a9a;
+    padding: 60px 30px;
+}
+
+.Proyectos-Realizados h2{
+    font-size: 48px;
+    font-family: 'righteous';
+    padding: 22px 0;
+    text-align: center;
+    
+}
+
+.Proyectos-Realizados .contenido-fila img{
+    max-width: 200px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.Proyectos-Realizados .fila {
+    background-color: rgb(245, 214, 219);
+    color: black;
+    list-style: none;
+
+}
+.Proyectos-Realizados .fila .li{
+    margin: 20px;
+
+}
+
+.Proyectos-Realizados .fila ul li strong{
+    display: inline-block;
+    color: rgb(219, 103, 103);
+    width: 132px;
+}
+
+.Contacto {
+    background-color: rgb(245, 131, 150);
+    color: #080808;
+    padding: 40px 10px;
+}
+
+.Contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.Contacto .fila{
+    display: flex;
+}
+
+.Contacto button{
+    cursor: pointer;
+    background-color: pink;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+footer{
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+
+
+
+
